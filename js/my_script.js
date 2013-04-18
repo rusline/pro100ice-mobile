@@ -92,14 +92,16 @@
 			
 			
 			jQuery.noConflict();	
-				// trackbar
-			$('.trackbar').trackbar();
-			
+						
 			// rating
 			$('.rating').rating({
 				fx: 'half',
 				image: 'images/stars.png'
 			});
+			
+			// trackbar
+			$('.trackbar').trackbar();
+			
 			(jQuery);
 			
 
