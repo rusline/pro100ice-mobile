@@ -28,6 +28,11 @@
 			return false;
 		});
 		
+		// delete
+		$('.del').click(function(){
+				$(this).parents(".order-list").animate({ opacity: 'hide' }, "slow");
+		});
+		
 		// Check
 		$(".checkboxclass").click(function(){
         if($(this).is(":checked")){
